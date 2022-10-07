@@ -1,3 +1,4 @@
+alert("move mouse or click on the screen to see the magic");
 const body = document.querySelector("body");
 body.addEventListener("mousemove", (e) => {
   const xpos = e.offsetX;
